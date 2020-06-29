@@ -1,0 +1,277 @@
+/*=======================================*
+
+                css reset
+
+*========================================*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=======================================*
+
+                  my reset
+
+*========================================*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*=======================================*
+
+                  global
+
+*========================================*/
+
+body {
+  background: #D4CEA7;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/*=======================================*
+
+              typography
+
+*========================================*/
+
+body {
+  font: 400 16px/1.5 'Karla', sans-serif;
+}
+
+dt {
+  font: 700 20px/1.5 'Libre Baskerville', serif;
+}
+
+/*=======================================*
+
+                  header
+
+*========================================*/
+
+.header {
+  background: #F96115;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*=======================================*
+
+                  first section
+
+*========================================*/
+
+.sec-1 {
+  justify-content: space-between;
+  color: #fff;
+}
+
+.flexbox {
+  flex: 0 1 30%;
+  background: #005979;
+  margin: 40px 0;
+  padding: 40px 10px;
+  box-shadow: 8px 8px 8px 5px #0008;
+}
+
+.ordered,
+.unordered,
+.img-list {
+  padding-left: 40px;
+}
+
+.ordered {
+  list-style-type: decimal;
+}
+
+.unordered {
+  list-style-type: disc;
+}
+
+.nested {
+  list-style-type: square;
+}
+
+.fas {
+  padding-right: 15px;
+  color: #000;
+}
+
+.o-list li,
+.u-list li {
+  padding: 6px 0;
+}
+
+.img-list li {
+  padding: 12px 0;
+}
+
+/*=======================================*
+
+                second section
+
+*========================================*/
+
+.sec-2 {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.sec-2 dd {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+/*=======================================*
+
+                footer
+
+*========================================*/
+
+.footer {
+  line-height: 5em;
+  background: #252C22;
+}
