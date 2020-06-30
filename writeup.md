@@ -4,7 +4,7 @@ Lists are the way that makes a short piece of information easy to understand. Th
 
 ## A. Unordered lists
 
-In unordered list the order of the items doesn't matter . To create a unordered list by HTML we have to use two tags "<ul>" and "<li>" .The "<ul>" tag represents the whole list and "<li>" tag represents the items of the list . Both "<ul>" and "<li>" are the block-level elements. By default there exists a vertical margin and left padding on "<ul>" element and all the list item("<li>") precede with a bullet point(or solid dot).
+In unordered list the order of the items doesn't matter . To create a unordered list by HTML we have to use two tags ```<ul>``` and ```<li>``` .The ```<ul>``` tag represents the whole list and ```<li>``` tag represents the items of the list . Both ```<ul>``` and ```<li>``` are the block-level elements. By default there exists a vertical margin and left padding on ```<ul>``` element and all the list item(```<li>```) precede with a bullet point(or solid dot).
 
 ```
 <ul>
@@ -17,7 +17,7 @@ In unordered list the order of the items doesn't matter . To create a unordered 
 
 ## B. Ordered list
 
-This list is similar with the unordered list but the order of the items matters. In HTML ordered list represents by "<ol>" tag and the items represents by "<li>". The sequence of the items in which it will represented is really important. Therefore, instead of bullet points the marker of each item will be a number in an ordered list. By default an ordered list will begin from 1. However you can set a custom beginning point or reversed the order of the item, using start and reversed attribute.
+This list is similar with the unordered list but the order of the items matters. In HTML ordered list represents by ```<ol>``` tag and the items represents by ```<li>```. The sequence of the items in which it will represented is really important. Therefore, instead of bullet points the marker of each item will be a number in an ordered list. By default an ordered list will begin from 1. However you can set a custom beginning point or reversed the order of the item, using start and reversed attribute.
 
 ```
 <ol>
@@ -28,11 +28,11 @@ This list is similar with the unordered list but the order of the items matters.
 </ol>
 ```
 
->>Ordered list has some attributes which can change the marker of the items.
+>>Ordered list has some attributes which can change the order of the items.
 
-###(i) Start Attribute
+### (i) Start Attribute
 
-he start attribute on "<ol>" element will decide from which the ordered list should start.
+he start attribute on ```<ol>``` element will decide from which the ordered list should start.
 
 ```
 <ol start="20">
@@ -143,7 +143,7 @@ ul {
 
 ###  Shorthand List Style Property
 
-The list-style is the shorthand property for list-style-type, list-style-position and listi-style-image.
+The list-style is the shorthand property for list-style-type, list-style-position and list-style-image.
 
 ```
 ul {
@@ -153,7 +153,7 @@ ul {
 
 ## C. Description Lists
 
-Description lists is not used unlike the unordered list and ordered list . To accomplish description list in HTML, "<dl>" tag is used. The "<dl>" element requires two block-level element, "<dt>" and "<dd>". The "<dt>" represetns the description term and "<dd>" reprsents the description of the term. Similar to the "<ol>" and "<ul>", "<dl>" element include vertical margins and "<dd>" element includes left margin.
+Description lists is not used unlike the unordered list and ordered list . To accomplish description list in HTML, ```<dl>``` tag is used. The ```<dl>``` element requires two block-level element, ```<dt>``` and ```<dd>```. The ```<dt>``` represents the description term and ```<dd>``` represents the description of the term. Similar to the ```<ol>``` and ```<ul>```, ```<dl>``` element include vertical margins and ```<dd>``` element includes left margin.
 
 ```
 <dl>
